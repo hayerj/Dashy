@@ -3,13 +3,11 @@
 # https://github.com/Lissy93/dashy
 Dashy
 ```wrap
-
 mkdir -p dashy/{public,icons}
-```
+
 nano docker-run.txt
 
 nano public/conf.yml
-
 
 appConfig:
   theme: colorful
@@ -40,5 +38,7 @@ docker run -d \
   --name dashy \
   --restart=unless-stopped \
   lissy93/dashy:latest
-```
+ 
+ ```wrap
+
 git clone https://github.com/walkxcode/dashboard-icons.git
