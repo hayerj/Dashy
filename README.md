@@ -1,7 +1,7 @@
 # Dashy
 
-# https://github.com/Lissy93/dashy
-Dashy
+https://github.com/Lissy93/dashy
+
 ```wrap
 mkdir -p dashy/{public,icons}
 
@@ -39,6 +39,6 @@ docker run -d \
   --restart=unless-stopped \
   lissy93/dashy:latest
  
- ```wrap
-
+ ```
+```wrap
 git clone https://github.com/walkxcode/dashboard-icons.git
